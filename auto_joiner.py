@@ -606,8 +606,8 @@ def main():
             if current_meeting is not None:
                 members = get_meeting_members()
 
-                if 0 < members <= 2:
-                    print("Last attendee in meeting")
+                if 0 < members <= 6:
+                    print("Only Few People Attending. Leaving...")
                     hangup()
                     interval_count = 0
 
